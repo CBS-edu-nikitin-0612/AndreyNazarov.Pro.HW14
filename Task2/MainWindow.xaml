@@ -1,0 +1,16 @@
+﻿<Window x:Class="Task2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="TextBox" HorizontalAlignment="Left" Height="25" Margin="25,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="359"/>
+        <Button x:Name="ButtonConnect" Content="Connect" HorizontalAlignment="Left" Height="25" Margin="25,59,0,0" VerticalAlignment="Top" Width="359" Click="ButtonConnect_Click"/>
+        <Button x:Name="ButtonDisconnect" Content="Diconnect" HorizontalAlignment="Left" Height="25" Margin="25,100,0,0" VerticalAlignment="Top" Width="359" Click="ButtonDisconnect_Click"/>
+        <TextBox x:Name="TextBoxData" HorizontalAlignment="Left" Height="106" Margin="389,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="359"/>
+
+    </Grid>
+</Window>
